@@ -24,12 +24,12 @@ const OpenSource = () => {
       desc: "Load testing tool for EVM nodes",
       website: "https://foundry.com",
     },
-    {
-      image: "/images/open-source/reth.png",
-      name: "Reth",
-      desc: "Modular & fast Ethereum client in Rust",
-      website: "https://foundry.com",
-    },
+    // {
+    //   image: "/images/open-source/reth.png",
+    //   name: "Reth",
+    //   desc: "Modular & fast Ethereum client in Rust",
+    //   website: "https://foundry.com",
+    // },
     {
       image: "/images/open-source/viem.png",
       name: "Viem",
@@ -67,16 +67,11 @@ const OpenSource = () => {
         ))}
       </div>
       <p className="text-xs leading-6 tracking-widest  text-gray-400">
-        The open-source projects presented on this page are not representative
-        of all projects that Blocklions Capital builds or otherwise supports. No
-        assurance is made that such open-source projects will be profitable or
-        economically or technically viable. Blocklions Capital provides no
-        express or implied warranties with respect to such projects, which are
-        publicly available “as is,” subject to the terms of use on each
-        project&apos;s website, as applicable. The open-source projects
-        presented are not portfolio companies of Blocklions Capital-managed
-        investment vehicles. Blocklions Capital assumes no duty to update the
-        above list of open-source projects.
+        The open-source projects you see here are just some of the ones
+        BlockLionsCapital supports. Keep in mind, they don&apos;t represent all
+        our projects. While we believe in their potential, we can&apos;t
+        guarantee they&apos;ll make money or work perfectly. These projects are
+        available to everyone &apos;as is,&apos; with their own rules.
       </p>
     </section>
   );

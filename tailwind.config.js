@@ -8,5 +8,5 @@ export default {
       riFormal: ["Ri Formal LSub", "sans serif"],
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

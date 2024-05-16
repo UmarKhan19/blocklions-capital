@@ -5,7 +5,11 @@ export default function NavItem({ label, link }) {
   return (
     <NavLink
       to={link}
-      className={({ isActive }) => (isActive ? "font-medium text-black" : "")}
+      className={({ isActive }) =>
+        isActive
+          ? "font-semibold text-black"
+          : "hover:text-gray-800 hover:font-medium"
+      }
     >
       {label}
     </NavLink>

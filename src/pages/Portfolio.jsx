@@ -1,6 +1,12 @@
 const Portfolio = () => {
   const projects = [
     {
+      image: "/images/portfolio/lumox-land-logo.png",
+      name: "Lumox land",
+      desc: "GameFi - Play to Earn build on BSC",
+      website: "https://lumoxland.com/",
+    },
+    {
       image: "/images/portfolio/aaveLogoWhite.svg",
       name: "AAVE",
       desc: "Toolkit for Ethereum developers",
@@ -36,17 +42,11 @@ const Portfolio = () => {
       desc: "Typescript interface for Ethereum",
       website: "https://www.lens.xyz/",
     },
-    {
-      image: "/images/portfolio/lumox-land-logo",
-      name: "Lumox land",
-      desc: "React Hooks for Ethereum",
-      website: "https://lumoxland.com/",
-    },
   ];
 
   return (
     <section className="space-y-4 py-4">
-      <div className="flex gap-16 flex-wrap py-8 ">
+      <div className="flex gap-16 flex-wrap py-8">
         {projects.map(({ image, name, desc, website }, i) => (
           <a href={website} key={i} className="flex gap-4 max-w-[280px] ">
             <div className="w-full grayscale bg-black p-4">
@@ -64,22 +64,13 @@ const Portfolio = () => {
         ))}
       </div>
       <p className="text-xs leading-6 tracking-widest  text-gray-400">
-        The investments or portfolio companies mentioned, referred to, or
-        described on this page are not representative of all investments in
-        vehicles managed by Paradigm and there can be no assurance that the
-        investments will be profitable or that other investments made in the
-        future will have similar characteristics or results. A more complete
-        list of investments (which excludes investments for which the issuer has
-        not provided permission for Paradigm to disclose publicly, as well as
-        unannounced investments in publicly traded digital assets) can be found
-        here. Please note that this list reflects current as well as historical
-        investments (save those portfolio companies (i) that have shut down
-        without a liquidity event or exit and (ii) for which the equity has been
-        written to zero without the corresponding receipt of another asset).
-        Further, the list of investments is updated periodically, and as such
-        may not reflect the most recent Paradigm investments. Past results of
-        Paradigm&apos;s investments, pooled investment vehicles, or investment
-        strategies are not necessarily indicative of future results.
+        The investments or portfolio companies showcased on this page are just a
+        selection and do not encompass the entirety of BlockLionsCapital&apos;s
+        investment portfolio. While we strive for successful outcomes, we cannot
+        guarantee the profitability of these investments or predict similar
+        results for future endeavors. It&apos;s important to understand that
+        past performance may not always reflect future results for
+        BlockLionsCapital&apos;s investments or strategies.
       </p>
     </section>
   );
