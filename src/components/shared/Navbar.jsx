@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import NavItem from "./NavItem";
 
 const navLinks = [
@@ -22,9 +23,9 @@ const navLinks = [
 const Navbar = () => {
   return (
     <nav className="space-y-4">
-      <>
+      <NavLink to={"/"}>
         <img src="/images/logo.png" className="w-48" />
-      </>
+      </NavLink>
       <>
         <ul className="text-[1.75vh] flex  text-gray-600  border-y  justify-between items-center px-4 py-2 border-gray-500 divide-x divide-gray-500 gap-4 text-center">
           {navLinks.map(({ label, link }, i) => {

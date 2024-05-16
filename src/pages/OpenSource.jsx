@@ -53,10 +53,10 @@ const OpenSource = () => {
         commercial incentive. A sampling of open source projects are listed
         below.
       </p>
-      <div className="flex gap-16 flex-wrap py-8 ">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16  py-8 ">
         {projects.map(({ image, name, desc, website }, i) => (
           <a href={website} key={i} className="flex gap-4 max-w-[280px] ">
-            <div className="w-full">
+            <div className="w-full bg-black flex justify-center items-center">
               <img src={image} alt={name} className="w-full aspect-square" />
             </div>
             <div className="space-y-2">

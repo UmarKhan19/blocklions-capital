@@ -2,7 +2,7 @@ const Portfolio = () => {
   const projects = [
     {
       image: "/images/portfolio/lumox-land-logo.png",
-      name: "Lumox land",
+      name: "Lumox",
       desc: "GameFi - Play to Earn build on BSC",
       website: "https://lumoxland.com/",
     },
@@ -46,14 +46,14 @@ const Portfolio = () => {
 
   return (
     <section className="space-y-4 py-4">
-      <div className="flex gap-16 flex-wrap py-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16  py-8">
         {projects.map(({ image, name, desc, website }, i) => (
           <a href={website} key={i} className="flex gap-4 max-w-[280px] ">
-            <div className="w-full grayscale bg-black p-4">
+            <div className="w-full flex justify-center items-center aspect-square grayscale bg-black p-4">
               <img
                 src={image}
                 alt={name}
-                className="w-full aspect-square object-contain"
+                className="w-full  aspect-square object-contain"
               />
             </div>
             <div className="space-y-2">

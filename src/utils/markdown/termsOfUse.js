@@ -38,7 +38,7 @@ We may revise these terms of use at any time without notice. By using this websi
 
 ## Contact Us
 
-If you have any questions about these terms of use, please contact us at [insert contact information].
+If you have any questions about these terms of use, please contact us at [info@blocklionscapital.com](mailto:info@blocklionscapital.com).
 `;
 
 export default termsOfUse;
