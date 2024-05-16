@@ -1,43 +1,43 @@
 const Portfolio = () => {
   const projects = [
     {
-      image: "../../public/images/portfolio/aaveLogoWhite.svg",
+      image: "/images/portfolio/aaveLogoWhite.svg",
       name: "AAVE",
       desc: "Toolkit for Ethereum developers",
       website: "https://aave.com/",
     },
     {
-      image: "../../public/images/portfolio/opensea-logo.svg",
+      image: "/images/portfolio/opensea-logo.svg",
       name: "Opensea",
       desc: "Ethereum building blocks in Rust",
       website: "https://opensea.io/",
     },
     {
-      image: "../../public/images/portfolio/worldcoin-logo.svg",
+      image: "/images/portfolio/worldcoin-logo.svg",
       name: "Worldcoin",
       desc: "Performant MEV bots in Rust",
       website: "https://worldcoin.org/",
     },
     {
-      image: "../../public/images/portfolio/circle-logo.png",
+      image: "/images/portfolio/circle-logo.png",
       name: "Circle",
       desc: "Load testing tool for EVM nodes",
       website: "https://www.circle.com/en/",
     },
     {
-      image: "../../public/images/portfolio/coinbase-logo.svg",
+      image: "/images/portfolio/coinbase-logo.svg",
       name: "Coinbase",
       desc: "Modular & fast Ethereum client in Rust",
       website: "https://www.coinbase.com/",
     },
     {
-      image: "../../public/images/portfolio/lens-logo.svg",
+      image: "/images/portfolio/lens-logo.svg",
       name: "Lens",
       desc: "Typescript interface for Ethereum",
       website: "https://www.lens.xyz/",
     },
     {
-      image: "../../public/images/portfolio/lumox-land-logo",
+      image: "/images/portfolio/lumox-land-logo",
       name: "Lumox land",
       desc: "React Hooks for Ethereum",
       website: "https://lumoxland.com/",

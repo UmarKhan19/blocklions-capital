@@ -1,43 +1,43 @@
 const OpenSource = () => {
   const projects = [
     {
-      image: "../../public/images/open-source/foundry.png",
+      image: "/images/open-source/foundry.png",
       name: "Foundry",
       desc: "Toolkit for Ethereum developers",
       website: "https://foundry.com",
     },
     {
-      image: "../../public/images/open-source/alloy.png",
+      image: "/images/open-source/alloy.png",
       name: "Alloy",
       desc: "Ethereum building blocks in Rust",
       website: "https://foundry.com",
     },
     {
-      image: "../../public/images/open-source/artemis.png",
+      image: "/images/open-source/artemis.png",
       name: "Artemis",
       desc: "Performant MEV bots in Rust",
       website: "https://foundry.com",
     },
     {
-      image: "../../public/images/open-source/flood.png",
+      image: "/images/open-source/flood.png",
       name: "Flood",
       desc: "Load testing tool for EVM nodes",
       website: "https://foundry.com",
     },
     {
-      image: "../../public/images/open-source/reth.png",
+      image: "/images/open-source/reth.png",
       name: "Reth",
       desc: "Modular & fast Ethereum client in Rust",
       website: "https://foundry.com",
     },
     {
-      image: "../../public/images/open-source/viem.png",
+      image: "/images/open-source/viem.png",
       name: "Viem",
       desc: "Typescript interface for Ethereum",
       website: "https://foundry.com",
     },
     {
-      image: "../../public/images/open-source/wagmi.png",
+      image: "/images/open-source/wagmi.png",
       name: "Wagmi",
       desc: "React Hooks for Ethereum",
       website: "https://foundry.com",
