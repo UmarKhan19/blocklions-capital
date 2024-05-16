@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div className="space-y-4 py-4">
       <p>
-        Welcome to BlockLionsCapital, where we specialize in investing in the
+        Welcome to BlockLions Capital, where we specialize in investing in the
         most innovative projects spanning crypto, gaming, and beyond. As a
         research-driven firm, we&apos;re committed to backing ventures from
         their earliest stages to their greatest heights. Our hands-on approach
