@@ -10,19 +10,19 @@ const OpenSource = () => {
       image: "/images/open-source/alloy.png",
       name: "Alloy",
       desc: "Ethereum building blocks in Rust",
-      website: "https://foundry.com",
+      website: "https://github.com/alloy-rs",
     },
     {
       image: "/images/open-source/artemis.png",
       name: "Artemis",
       desc: "Performant MEV bots in Rust",
-      website: "https://foundry.com",
+      website: "https://github.com/paradigmxyz/artemis",
     },
     {
       image: "/images/open-source/flood.png",
       name: "Flood",
       desc: "Load testing tool for EVM nodes",
-      website: "https://foundry.com",
+      website: "https://github.com/paradigmxyz/flood/",
     },
     // {
     //   image: "/images/open-source/reth.png",
@@ -34,13 +34,13 @@ const OpenSource = () => {
       image: "/images/open-source/viem.png",
       name: "Viem",
       desc: "Typescript interface for Ethereum",
-      website: "https://foundry.com",
+      website: "https://viem.sh/",
     },
     {
       image: "/images/open-source/wagmi.png",
       name: "Wagmi",
       desc: "React Hooks for Ethereum",
-      website: "https://foundry.com",
+      website: "https://wagmi.sh/",
     },
   ];
 

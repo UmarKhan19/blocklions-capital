@@ -6,6 +6,8 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import OpenSource from "./pages/OpenSource";
 import Disclosure from "./pages/Disclosure";
+import WebsiteTermsOfUse from "./pages/WebsiteTermsOfUse";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -17,9 +19,9 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/open-source" element={<OpenSource />} />
-        <Route path="/website-terms-of-use" element={<OpenSource />} />
+        <Route path="/website-terms-of-use" element={<WebsiteTermsOfUse />} />
         <Route path="/important-disclosures" element={<Disclosure />} />
-        <Route path="/open-source" element={<OpenSource />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
 
       <Footer />

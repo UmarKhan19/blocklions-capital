@@ -9,37 +9,37 @@ const Portfolio = () => {
     {
       image: "/images/portfolio/aaveLogoWhite.svg",
       name: "AAVE",
-      desc: "Toolkit for Ethereum developers",
+      desc: "Decentralized lending protocol",
       website: "https://aave.com/",
     },
     {
       image: "/images/portfolio/opensea-logo.svg",
       name: "Opensea",
-      desc: "Ethereum building blocks in Rust",
+      desc: "NFT marketplace platform",
       website: "https://opensea.io/",
     },
     {
       image: "/images/portfolio/worldcoin-logo.svg",
       name: "Worldcoin",
-      desc: "Performant MEV bots in Rust",
+      desc: "Iris biometric cryptocurrency",
       website: "https://worldcoin.org/",
     },
     {
       image: "/images/portfolio/circle-logo.png",
       name: "Circle",
-      desc: "Load testing tool for EVM nodes",
+      desc: "Cryptocurrency investment platform",
       website: "https://www.circle.com/en/",
     },
     {
       image: "/images/portfolio/coinbase-logo.svg",
       name: "Coinbase",
-      desc: "Modular & fast Ethereum client in Rust",
+      desc: "Cryptocurrency exchange platform",
       website: "https://www.coinbase.com/",
     },
     {
       image: "/images/portfolio/lens-logo.svg",
       name: "Lens",
-      desc: "Typescript interface for Ethereum",
+      desc: "Decentralized social media platform",
       website: "https://www.lens.xyz/",
     },
   ];
