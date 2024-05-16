@@ -5,3 +5,8 @@
 body {
   background-color: azure;
 }
+
+@font-face {
+  font-family: "NB International";
+  src: url("../public/fonts/NB\ International\ Regular.otf");
+}
