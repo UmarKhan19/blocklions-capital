@@ -10,3 +10,8 @@ body {
   font-family: "NB International";
   src: url("../public/fonts/NB\ International\ Regular.otf");
 }
+
+@font-face {
+  font-family: "Ri Formal LSub";
+  src: url("../public/fonts/RiformaLLSub.otf");
+}

@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      nbInternational: ["NB International", "san serif"],
+      nbInternational: ["NB International", "sans serif"],
+      riFormal: ["Ri Formal LSub", "sans serif"],
     },
   },
   plugins: [],
