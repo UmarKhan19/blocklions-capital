@@ -1,9 +1,66 @@
 const Portfolio = () => {
+  const projects = [
+    {
+      image: "../../public/images/portfolio/aaveLogoWhite.svg",
+      name: "AAVE",
+      desc: "Toolkit for Ethereum developers",
+      website: "https://aave.com/",
+    },
+    {
+      image: "../../public/images/portfolio/opensea-logo.svg",
+      name: "Opensea",
+      desc: "Ethereum building blocks in Rust",
+      website: "https://opensea.io/",
+    },
+    {
+      image: "../../public/images/portfolio/worldcoin-logo.svg",
+      name: "Worldcoin",
+      desc: "Performant MEV bots in Rust",
+      website: "https://worldcoin.org/",
+    },
+    {
+      image: "../../public/images/portfolio/circle-logo.png",
+      name: "Circle",
+      desc: "Load testing tool for EVM nodes",
+      website: "https://www.circle.com/en/",
+    },
+    {
+      image: "../../public/images/portfolio/coinbase-logo.svg",
+      name: "Coinbase",
+      desc: "Modular & fast Ethereum client in Rust",
+      website: "https://www.coinbase.com/",
+    },
+    {
+      image: "../../public/images/portfolio/lens-logo.svg",
+      name: "Lens",
+      desc: "Typescript interface for Ethereum",
+      website: "https://www.lens.xyz/",
+    },
+    {
+      image: "../../public/images/portfolio/lumox-land-logo",
+      name: "Lumox land",
+      desc: "React Hooks for Ethereum",
+      website: "https://lumoxland.com/",
+    },
+  ];
+
   return (
     <section className="space-y-4 py-4">
-      <div className="grid grid-cols-2 gap-y-16 py-8">
-        {new Array(5).fill(0).map((i) => (
-          <div key={i} className="size-40 bg-black"></div>
+      <div className="flex gap-16 flex-wrap py-8 ">
+        {projects.map(({ image, name, desc, website }, i) => (
+          <a href={website} key={i} className="flex gap-4 max-w-[280px] ">
+            <div className="w-full grayscale bg-black p-4">
+              <img
+                src={image}
+                alt={name}
+                className="w-full aspect-square object-contain"
+              />
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-sm">{name}</h3>
+              <p className="text-sm text-gray-600 tracking-widest">{desc}</p>
+            </div>
+          </a>
         ))}
       </div>
       <p className="text-xs leading-6 tracking-widest  text-gray-400">
