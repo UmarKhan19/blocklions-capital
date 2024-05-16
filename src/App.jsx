@@ -8,7 +8,7 @@ import OpenSource from "./pages/OpenSource";
 
 function App() {
   return (
-    <main className="md:w-[50%] mx-auto bg-gray-200 p-8 mt-8 rounded-md font-nbInternational">
+    <main className="md:w-[50%] mx-auto bg-gray-200 p-8 my-8 rounded-md font-nbInternational">
       <Navbar />
 
       <Routes>
