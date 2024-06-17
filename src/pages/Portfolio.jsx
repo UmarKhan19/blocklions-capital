@@ -2,7 +2,7 @@ const Portfolio = () => {
   const projects = [
     {
       image: "/images/portfolio/lumox-land-logo.png",
-      name: "Lumox",
+      name: "Lumox Studio",
       desc: "GameFi - Play to Earn build on BSC",
       website: "https://lumoxland.com/",
     },
@@ -45,25 +45,25 @@ const Portfolio = () => {
   ];
 
   return (
-    <section className="space-y-4 py-4">
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16  py-8">
+    <section className="py-4 space-y-4">
+      <div className="grid gap-16 py-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map(({ image, name, desc, website }, i) => (
           <a href={website} key={i} className="flex gap-4 max-w-[280px] ">
-            <div className="w-full flex justify-center items-center aspect-square grayscale bg-black p-4">
+            <div className="flex items-center justify-center w-full p-4 bg-black aspect-square grayscale">
               <img
                 src={image}
                 alt={name}
-                className="w-full  aspect-square object-contain"
+                className="object-contain w-full aspect-square"
               />
             </div>
             <div className="space-y-2">
               <h3 className="text-sm">{name}</h3>
-              <p className="text-sm text-gray-600 tracking-widest">{desc}</p>
+              <p className="text-sm tracking-widest text-gray-600">{desc}</p>
             </div>
           </a>
         ))}
       </div>
-      <p className="text-xs leading-6 tracking-widest  text-gray-400">
+      <p className="text-xs leading-6 tracking-widest text-gray-400">
         The investments or portfolio companies showcased on this page are just a
         selection and do not encompass the entirety of BlockLionsCapital&apos;s
         investment portfolio. While we strive for successful outcomes, we cannot
