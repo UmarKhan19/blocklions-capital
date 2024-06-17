@@ -4,7 +4,7 @@ const Portfolio = () => {
       image: "/images/portfolio/lumox-land-logo.png",
       name: "Lumox Studio",
       desc: "GameFi - Play to Earn build on BSC",
-      website: "https://lumoxland.com/",
+      website: "https://lumoxstudio.com/",
     },
     {
       image: "/images/portfolio/aaveLogoWhite.svg",
