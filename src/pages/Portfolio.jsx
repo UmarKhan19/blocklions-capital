@@ -48,7 +48,12 @@ const Portfolio = () => {
     <section className="py-4 space-y-4">
       <div className="grid gap-16 py-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map(({ image, name, desc, website }, i) => (
-          <a href={website} key={i} className="flex gap-4 max-w-[280px] ">
+          <a
+            href={website}
+            key={i}
+            className="flex gap-4 max-w-[280px]"
+            target="_blank"
+          >
             <div className="flex items-center justify-center w-full p-4 bg-black aspect-square grayscale">
               <img
                 src={image}
