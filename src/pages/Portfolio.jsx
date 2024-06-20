@@ -1,6 +1,12 @@
 const Portfolio = () => {
   const projects = [
     {
+      image: "/images/portfolio/io-logo.jpg",
+      name: "io",
+      desc: "The Internet of GPUs",
+      website: "https://io.net/",
+    },
+    {
       image: "/images/portfolio/lumox-land-logo.png",
       name: "Lumox Studio",
       desc: "GameFi - Play to Earn build on BSC",
@@ -42,6 +48,18 @@ const Portfolio = () => {
       desc: "Decentralized social media platform",
       website: "https://www.lens.xyz/",
     },
+    {
+      image: "/images/portfolio/dydx-logo.svg",
+      name: "dYdX",
+      desc: "dYdX Chain: Future DeFi",
+      website: "https://dydx.trade/",
+    },
+    {
+      image: "/images/portfolio/zk-sync-logo.svg",
+      name: "ZK Sync",
+      desc: "Expanding verifiable blockchain.",
+      website: "https://zksync.io/",
+    },
   ];
 
   return (
@@ -51,17 +69,17 @@ const Portfolio = () => {
           <a
             href={website}
             key={i}
-            className="flex gap-4 max-w-[280px]"
+            className="flex gap-4   w-full max-w-[280px]"
             target="_blank"
           >
-            <div className="flex items-center justify-center w-full p-4 bg-black aspect-square grayscale">
+            <div className="flex items-center justify-center h-[100px] aspect-square p-4 bg-black  grayscale">
               <img
                 src={image}
                 alt={name}
                 className="object-contain w-full aspect-square"
               />
             </div>
-            <div className="space-y-2">
+            <div className="space-y-2 w-full">
               <h3 className="text-sm">{name}</h3>
               <p className="text-sm tracking-widest text-gray-600">{desc}</p>
             </div>
